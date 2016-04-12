@@ -1,0 +1,30 @@
+{
+  "name": "ccredis",
+  "version": "0.1.0",
+  "description": "redis module",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazycloudcc/NodeRedisModule.git"
+  },
+  "keywords": [
+    "cc",
+    "redis"
+  ],
+  "author": "crazycloudcc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crazycloudcc/NodeRedisModule/issues"
+  },
+  "homepage": "https://github.com/crazycloudcc/NodeRedisModule#readme",
+  "dependencies": {
+    "log4js": "0.6.26",
+    "redis": "2.6.0-1"
+  },
+  "engines": {
+    "node": ">=4.4.2"
+  }
+}

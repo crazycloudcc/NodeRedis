@@ -1,0 +1,29 @@
+
+{
+    "REDIS" : {
+        "host" : "arpg.joocgame.com",
+        "port" : 7003,
+        "auth" : { "auth_pass" : "jooc2015" },
+        "database" : 1,
+        "debug" : true
+    },
+    "LOGGER" : {
+        "configure" : {
+            "appenders" : [
+                { "type" : "console" },
+                {
+                    "type" : "file",
+                    "filename" : "logs/access.log",
+                    "maxLogSize" : 10240000,
+                    "backups" : 3,
+                    "category" : "normal"
+                }
+            ],
+            "replaceConsole" : true
+        },
+        "level" : "DEBUG"
+    }
+}
+
+
+
